@@ -17,16 +17,16 @@ module.exports = {
     ]
   },
   plugins: [
-    {
-      plugin: CracoLessPlugin,
-      options: {
-        lessLoaderOptions: {
-          lessOptions: {
-            modifyVars: { '@primary-color': '#30f403' },
-            javascriptEnabled: true,
-          },
-        },
-      },
-    },
+    // {
+    //   plugin: CracoLessPlugin,
+    //   options: {
+    //     lessLoaderOptions: {
+    //       lessOptions: {
+    //         modifyVars: { '@primary-color': '#30f403' },
+    //         javascriptEnabled: true,
+    //       },
+    //     },
+    //   },
+    // },
   ],
 };

@@ -20,6 +20,7 @@ export const FooterLeft = styled.div`
   .link {
     a {
       color: #999;
+      font-size:12px;
     }
 
     .line {

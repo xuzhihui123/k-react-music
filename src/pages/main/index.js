@@ -1,5 +1,7 @@
 import React, { memo } from 'react'
-
+//导入路由
+import {routes} from '@/router'
+import {renderRoutes} from 'react-router-config'
 
 
 //导入组件
@@ -12,6 +14,7 @@ export default memo(function Main() {
   return (
     <div>
         <PageHeader/>
+        {renderRoutes(routes)}
         <PageFooter/>
     </div>
   )

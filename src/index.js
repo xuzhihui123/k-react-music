@@ -4,6 +4,12 @@ import "./assets/css/base.css"
 
 import App from './App'
 
+import store from '@/store'
+import {Provider} from 'react-redux'
 
-ReactDom.render(<App/>,document.getElementById('root'))
+
+ReactDom.render(
+  <Provider store={store}>
+    <App/>
+  </Provider>,document.getElementById('root'))
 
